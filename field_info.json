@@ -1,0 +1,2791 @@
+{
+    "file_name": "smaller_data.json",
+    "user_id": "p007",
+    "user_session_id": "1",
+    "data_info_from_user": "json array of events triggered by all minecraft players in a server in choronological order",
+    "meaning_of_elements_in_data": "The provided JSON data consists of a chronological array of events triggered by players on a Minecraft server. Each element includes various fields that capture specific details about the event. Key elements include:\n\n1. **event**: The type of event triggered, such as player joining, command usage, or NPC interaction.\n2. **timestamp**: The date and time when the event occurred.\n3. **distinct_id**: A unique identifier for the player or event instance.\n4. **mp_country_code**: The country code of the player, indicating their geographical location.\n5. **command**: The specific command executed by the player, if applicable.\n6. **username**: The in-game name of the player associated with the event.\n7. **message**: Any chat messages sent by the player during the event.\n\nThese fields collectively help in tracking player activities and interactions within the Minecraft server environment.",
+    "first_few_elements": [
+        {
+            "event": "PlayerJoinEvent",
+            "timestamp": "2023-12-17 06:42:09",
+            "time": 1702775529,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775551040,
+            "server": "manas"
+        },
+        {
+            "event": "Player Join",
+            "timestamp": "2023-12-17 06:42:11",
+            "time": 1702775531,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_lib": "Segment Actions: analytics-java",
+            "mp_processing_time_ms": 1702775551135,
+            "event_original_name": "Player Join",
+            "id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "type": "bedrock",
+            "username": ".Its_Sycooo"
+        },
+        {
+            "event": "command-used",
+            "timestamp": "2023-12-17 06:42:25",
+            "time": 1702775545,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775551040,
+            "server": "manas",
+            "command": "/login",
+            "full-command": "/login SHREERAM"
+        },
+        {
+            "event": "command-used",
+            "timestamp": "2023-12-17 06:42:41",
+            "time": 1702775561,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775576037,
+            "server": "manas",
+            "command": "/pl",
+            "full-command": "/pl"
+        },
+        {
+            "event": "NPC Interaction",
+            "timestamp": "2023-12-17 06:42:56",
+            "time": 1702775576,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_lib": "Segment Actions: analytics-java",
+            "mp_processing_time_ms": 1702775609832,
+            "event_original_name": "NPC Interaction",
+            "id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "type": "interact",
+            "username": ".Its_Sycooo",
+            "device": "bedrock",
+            "npc": "raju"
+        },
+        {
+            "event": "AsyncPlayerChatEvent",
+            "timestamp": "2023-12-17 06:43:07",
+            "time": 1702775587,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775601007,
+            "server": "manas",
+            "world": "world",
+            "message": "Bhai aaj netheriye",
+            "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+        },
+        {
+            "event": "Trade Offer Received",
+            "timestamp": "2023-12-17 06:43:10",
+            "time": 1702775590,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_lib": "Segment Actions: analytics-java",
+            "mp_processing_time_ms": 1702775609832,
+            "event_original_name": "Trade Offer Received",
+            "id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "username": ".Its_Sycooo",
+            "device": "bedrock",
+            "npc": "raju",
+            "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+            "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+            "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+        },
+        {
+            "event": "NPC Interaction",
+            "timestamp": "2023-12-17 06:43:10",
+            "time": 1702775590,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_lib": "Segment Actions: analytics-java",
+            "mp_processing_time_ms": 1702775609832,
+            "event_original_name": "NPC Interaction",
+            "id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "type": "chat",
+            "username": ".Its_Sycooo",
+            "message": "Bhai aaj netheriye",
+            "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+            "first-chat": true
+        },
+        {
+            "event": "AsyncPlayerChatEvent",
+            "timestamp": "2023-12-17 06:43:13",
+            "time": 1702775593,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775601007,
+            "server": "manas",
+            "world": "world",
+            "message": "y",
+            "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+        },
+        {
+            "event": "command-used",
+            "timestamp": "2023-12-17 06:43:30",
+            "time": 1702775610,
+            "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+            "mp_country_code": "IN",
+            "mp_lib": "jdk",
+            "mp_processing_time_ms": 1702775626047,
+            "server": "manas",
+            "command": "/back",
+            "full-command": "/back"
+        }
+    ],
+    "field_info_list": [
+        {
+            "field_name": "event",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the specific type of event triggered by a player in the Minecraft server. Examples include player joining, command usage, and NPC interactions.",
+            "field_values": [
+                "PlayerJoinEvent",
+                "Player Join",
+                "command-used",
+                "command-used",
+                "NPC Interaction",
+                "AsyncPlayerChatEvent"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "event_type"
+        },
+        {
+            "field_name": "evnt",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the specific type of event triggered by a player in the Minecraft server. Examples include player joining, command usage, and NPC interactions.",
+            "field_values": [
+                "PlayerJoinEvent",
+                "Player Join",
+                "command-used",
+                "command-used",
+                "NPC Interaction",
+                "AsyncPlayerChatEvent"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "event_type"
+        },
+        {
+            "field_name": "timestamp",
+            "field_type": "<class 'str'>",
+            "field_description": "Records the precise date and time when each player-triggered event occurs. This field is essential for tracking the chronological order of events on the server.",
+            "field_values": [
+                "2023-12-17 06:42:09",
+                "2023-12-17 06:42:11",
+                "2023-12-17 06:42:25",
+                "2023-12-17 06:42:41",
+                "2023-12-17 06:42:56",
+                "2023-12-17 06:43:07"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "event_timestamp"
+        },
+        {
+            "field_name": "time",
+            "field_type": "<class 'int'>",
+            "field_description": "The time of the event occurrence represented as an integer. It indicates the precise moment when each player-triggered event took place.",
+            "field_values": [
+                1702775529,
+                1702775531,
+                1702775545,
+                1702775561,
+                1702775576,
+                1702775587
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "event_timestamp"
+        },
+        {
+            "field_name": "distinct_id",
+            "field_type": "<class 'str'>",
+            "field_description": "A unique string that identifies a specific player or event instance. This ID is crucial for tracking player activities across different events.",
+            "field_values": [
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "unique_player_identifier"
+        },
+        {
+            "field_name": "mp_country_code",
+            "field_type": "<class 'str'>",
+            "field_description": "Represents the country code of the player triggering the event. This field helps identify the geographical location of players on the server.",
+            "field_values": [
+                "IN",
+                "IN",
+                "IN",
+                "IN",
+                "IN",
+                "IN"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:13",
+                    "time": 1702775593,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:43:30",
+                    "time": 1702775610,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775626047,
+                    "server": "manas",
+                    "command": "/back",
+                    "full-command": "/back"
+                }
+            ],
+            "field_new_name": "mp_country_identifier"
+        },
+        {
+            "field_name": "mp_lib",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the library or framework used for tracking events related to the player. Possible values include specific tracking libraries like 'jdk' and 'Segment Actions: analytics-java'.",
+            "field_values": [
+                "jdk",
+                "Segment Actions: analytics-java",
+                "jdk",
+                "jdk",
+                "Segment Actions: analytics-java",
+                "jdk"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "mp_library"
+        },
+        {
+            "field_name": "mp_processing_time_ms",
+            "field_type": "<class 'int'>",
+            "field_description": "The processing time taken for an event in milliseconds. This value indicates the duration of time spent handling the event.",
+            "field_values": [
+                1702775551040,
+                1702775551135,
+                1702775551040,
+                1702775576037,
+                1702775609832,
+                1702775601007
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                }
+            ],
+            "field_new_name": "mp_processing_time_milliseconds"
+        },
+        {
+            "field_name": "server",
+            "field_type": "<class 'str'>",
+            "field_description": "Represents the name of the Minecraft server where the event occurred. This field indicates the specific server instance associated with player activities.",
+            "field_values": [
+                "manas",
+                "manas",
+                "manas",
+                "manas",
+                "manas",
+                "manas"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerJoinEvent",
+                    "timestamp": "2023-12-17 06:42:09",
+                    "time": 1702775529,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:13",
+                    "time": 1702775593,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:43:30",
+                    "time": 1702775610,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775626047,
+                    "server": "manas",
+                    "command": "/back",
+                    "full-command": "/back"
+                }
+            ],
+            "field_new_name": "server_name"
+        },
+        {
+            "field_name": "event_original_name",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the specific type of event that occurred in the game, such as player actions or interactions with NPCs. It helps in categorizing and tracking different player activities on the server.",
+            "field_values": [
+                "Player Join",
+                "NPC Interaction",
+                "Trade Offer Received",
+                "NPC Interaction",
+                "NPC Interaction",
+                "NPC Interaction"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                }
+            ],
+            "field_new_name": "event_type"
+        },
+        {
+            "field_name": "id",
+            "field_type": "<class 'str'>",
+            "field_description": "A unique identifier assigned to each player event instance. It helps in tracking individual player activities across different events.",
+            "field_values": [
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48",
+                "00000000-0000-0000-0009-01fff2bbdb48"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                }
+            ],
+            "field_new_name": "distinct_id"
+        },
+        {
+            "field_name": "type",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the type of event associated with the player interaction. Possible values include 'bedrock', 'interact', 'chat', and 'java'.",
+            "field_values": [
+                "bedrock",
+                "interact",
+                "chat",
+                "interact",
+                "chat",
+                "java"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 07:03:41",
+                    "time": 1702776821,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702776853750,
+                    "event_original_name": "Player Join",
+                    "id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "type": "java",
+                    "username": "SHAWDOW_YT"
+                }
+            ],
+            "field_new_name": "event_type"
+        },
+        {
+            "field_name": "username",
+            "field_type": "<class 'str'>",
+            "field_description": "The in-game name of the player associated with the event. This field identifies the player across various interactions within the Minecraft server.",
+            "field_values": [
+                ".Its_Sycooo",
+                ".Its_Sycooo",
+                ".Its_Sycooo",
+                ".Its_Sycooo",
+                ".Its_Sycooo",
+                ".Its_Sycooo"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Player Join",
+                    "timestamp": "2023-12-17 06:42:11",
+                    "time": 1702775531,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775551135,
+                    "event_original_name": "Player Join",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "bedrock",
+                    "username": ".Its_Sycooo"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                }
+            ],
+            "field_new_name": "player_username"
+        },
+        {
+            "field_name": "command",
+            "field_type": "<class 'str'>",
+            "field_description": "The command entered by the player during an event. It represents specific actions or requests made by the player in the game.",
+            "field_values": [
+                "/login",
+                "/pl",
+                "/back",
+                "/login",
+                "/login",
+                "/login"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:43:30",
+                    "time": 1702775610,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775626047,
+                    "server": "manas",
+                    "command": "/back",
+                    "full-command": "/back"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:04:36",
+                    "time": 1702776876,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776901025,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login bhanu2244"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:17:36",
+                    "time": 1702777656,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777676237,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login Priyanshu1030"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:43:38",
+                    "time": 1702779218,
+                    "distinct_id": "00000000-0000-0000-0009-01f07597e118",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702779226031,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login AYAN44400"
+                }
+            ],
+            "field_new_name": "executed_command"
+        },
+        {
+            "field_name": "full-command",
+            "field_type": "<class 'str'>",
+            "field_description": "The complete command executed by the player, including any arguments provided. This field captures the entire input string used in command execution.",
+            "field_values": [
+                "/login SHREERAM",
+                "/pl",
+                "/back",
+                "/login bhanu2244",
+                "/login Priyanshu1030",
+                "/login AYAN44400"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:25",
+                    "time": 1702775545,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775551040,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login SHREERAM"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:42:41",
+                    "time": 1702775561,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775576037,
+                    "server": "manas",
+                    "command": "/pl",
+                    "full-command": "/pl"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 06:43:30",
+                    "time": 1702775610,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775626047,
+                    "server": "manas",
+                    "command": "/back",
+                    "full-command": "/back"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:04:36",
+                    "time": 1702776876,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776901025,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login bhanu2244"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:17:36",
+                    "time": 1702777656,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777676237,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login Priyanshu1030"
+                },
+                {
+                    "event": "command-used",
+                    "timestamp": "2023-12-17 07:43:38",
+                    "time": 1702779218,
+                    "distinct_id": "00000000-0000-0000-0009-01f07597e118",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702779226031,
+                    "server": "manas",
+                    "command": "/login",
+                    "full-command": "/login AYAN44400"
+                }
+            ],
+            "field_new_name": "full_command_with_arguments"
+        },
+        {
+            "field_name": "device",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the type of device used by the player during the event. Possible values include 'bedrock' or 'java', reflecting the player's platform.",
+            "field_values": [
+                "bedrock",
+                "bedrock",
+                "bedrock",
+                "java",
+                "java",
+                "java"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 07:20:06",
+                    "time": 1702777806,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840288,
+                    "event_original_name": "NPC Interaction",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "type": "interact",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 07:20:20",
+                    "time": 1702777820,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840290,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "inventory": "{'andesite': 2, 'birch_planks': 4, 'bone': 1, 'bread': 15, 'coal': 175, 'cobbled_deepslate': 9, 'cobblestone': 28, 'crafting_table': 1, 'diamond_sword': 1, 'emerald': 4, 'flowering_azalea': 1, 'furnace': 1, 'golden_shovel': 1, 'gravel': 6, 'iron_axe': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 1, 'iron_pickaxe': 1, 'moss_block': 10, 'raw_iron': 163, 'shield': 1, 'stick': 2, 'torch': 7, 'warped_planks': 32, 'warped_wart_block': 1, 'water_bucket': 1, 'wheat': 384, 'written_book': 1}",
+                    "trade-menu": "[[\"diamond_sword\",1,\"diamond\",3,\"diamond_pickaxe\"],[\"emerald\",1,\"redstone\",24,\"redstone_torch\"],[\"iron_chestplate\",1,\"iron\",8,\"iron_block\"],[\"diamond\",1,\"iron_ingot\",31,\"diamond_pickaxe\"],[\"gold_nugget\",1,\"iron_ingot\",1,\"gold_ingot\"],[\"golden_shovel\",1,\"i",
+                    "trade-suggested": "[{\"reason\":\"diamond_pickaxe\",\"give_item\":\"diamond_sword\",\"give_quantity\":1,\"take_item\":\"diamond\",\"take_quantity\":3},{\"reason\":\"redstone_torch\",\"give_item\":\"emerald\",\"give_quantity\":1,\"take_item\":\"redstone\",\"take_quantity\":24},{\"reason\":\"iron_block\",\"give_"
+                },
+                {
+                    "event": "Unique Trade",
+                    "timestamp": "2023-12-17 07:20:27",
+                    "time": 1702777827,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777860170,
+                    "event_original_name": "Unique Trade",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                }
+            ],
+            "field_new_name": "player_device_type"
+        },
+        {
+            "field_name": "npc",
+            "field_type": "<class 'str'>",
+            "field_description": "A unique identifier for the non-player character (NPC) involved in the event. It can represent either a name or a UUID of the NPC.",
+            "field_values": [
+                "raju",
+                "raju",
+                "e5f13606-7960-444a-9548-8c02e86b917f",
+                "raju",
+                "e5f13606-7960-444a-9548-8c02e86b917f",
+                "raju"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:42:56",
+                    "time": 1702775576,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:44",
+                    "time": 1702775684,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "interact",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 07:20:06",
+                    "time": 1702777806,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840288,
+                    "event_original_name": "NPC Interaction",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "type": "interact",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju"
+                }
+            ],
+            "field_new_name": "npc_identifier"
+        },
+        {
+            "field_name": "world",
+            "field_type": "<class 'str'>",
+            "field_description": "Denotes the specific world context in which the event occurs. It helps identify the environment where players interact and perform actions.",
+            "field_values": [
+                "world",
+                "world",
+                "world",
+                "world",
+                "world",
+                "world"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:13",
+                    "time": 1702775593,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:48",
+                    "time": 1702775628,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775654326,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "kon kon blaster gang mai hai?",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:44:49",
+                    "time": 1702775689,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775701025,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Exploring",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:44:55",
+                    "time": 1702775695,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775701025,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:32",
+                    "time": 1702775792,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801034,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                }
+            ],
+            "field_new_name": "current_world"
+        },
+        {
+            "field_name": "message",
+            "field_type": "<class 'str'>",
+            "field_description": "Contains the text of the message sent by a player during an in-game event. It reflects the player's communication within the server context.",
+            "field_values": [
+                "Bhai aaj netheriye",
+                "Bhai aaj netheriye",
+                "y",
+                "kon kon blaster gang mai hai?",
+                "Exploring",
+                "Exploring"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:13",
+                    "time": 1702775593,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:48",
+                    "time": 1702775628,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775654326,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "kon kon blaster gang mai hai?",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:44:49",
+                    "time": 1702775689,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775701025,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Exploring",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                }
+            ],
+            "field_new_name": "chat_message"
+        },
+        {
+            "field_name": "to",
+            "field_type": "<class 'str'>",
+            "field_description": "Lists the players who are intended to receive the chat message. This field captures the target audience for the player's communication.",
+            "field_values": [
+                "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]",
+                "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]",
+                "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]",
+                "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]",
+                "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]",
+                "[CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SHAWDOW_YT}]"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:07",
+                    "time": 1702775587,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Bhai aaj netheriye",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:13",
+                    "time": 1702775593,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775601007,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:43:48",
+                    "time": 1702775628,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775654326,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "kon kon blaster gang mai hai?",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SuhanXEmpire}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:44:49",
+                    "time": 1702775689,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775701025,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "Exploring",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 06:44:55",
+                    "time": 1702775695,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775701025,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "y",
+                    "to": "[CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=.Its_Sycooo}]"
+                },
+                {
+                    "event": "AsyncPlayerChatEvent",
+                    "timestamp": "2023-12-17 07:04:23",
+                    "time": 1702776863,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776878641,
+                    "server": "manas",
+                    "world": "world",
+                    "message": "login bhanu2244",
+                    "to": "[CraftPlayer{name=_FaNNiZGameR_OPP}, CraftPlayer{name=GOD_OF_SPIDER}, CraftPlayer{name=SHAWDOW_YT}]"
+                }
+            ],
+            "field_new_name": "chat_recipients"
+        },
+        {
+            "field_name": "inventory",
+            "field_type": "<class 'str'>",
+            "field_description": "A string representation of the items a player currently holds in their inventory. This includes quantities and types of items available for trade or use.",
+            "field_values": [
+                "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                "{'andesite': 2, 'birch_planks': 4, 'bone': 1, 'bread': 15, 'coal': 175, 'cobbled_deepslate': 9, 'cobblestone': 28, 'crafting_table': 1, 'diamond_sword': 1, 'emerald': 4, 'flowering_azalea': 1, 'furnace': 1, 'golden_shovel': 1, 'gravel': 6, 'iron_axe': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 1, 'iron_pickaxe': 1, 'moss_block': 10, 'raw_iron': 163, 'shield': 1, 'stick': 2, 'torch': 7, 'warped_planks': 32, 'warped_wart_block': 1, 'water_bucket': 1, 'wheat': 384, 'written_book': 1}"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 07:20:20",
+                    "time": 1702777820,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840290,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "inventory": "{'andesite': 2, 'birch_planks': 4, 'bone': 1, 'bread': 15, 'coal': 175, 'cobbled_deepslate': 9, 'cobblestone': 28, 'crafting_table': 1, 'diamond_sword': 1, 'emerald': 4, 'flowering_azalea': 1, 'furnace': 1, 'golden_shovel': 1, 'gravel': 6, 'iron_axe': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 1, 'iron_pickaxe': 1, 'moss_block': 10, 'raw_iron': 163, 'shield': 1, 'stick': 2, 'torch': 7, 'warped_planks': 32, 'warped_wart_block': 1, 'water_bucket': 1, 'wheat': 384, 'written_book': 1}",
+                    "trade-menu": "[[\"diamond_sword\",1,\"diamond\",3,\"diamond_pickaxe\"],[\"emerald\",1,\"redstone\",24,\"redstone_torch\"],[\"iron_chestplate\",1,\"iron\",8,\"iron_block\"],[\"diamond\",1,\"iron_ingot\",31,\"diamond_pickaxe\"],[\"gold_nugget\",1,\"iron_ingot\",1,\"gold_ingot\"],[\"golden_shovel\",1,\"i",
+                    "trade-suggested": "[{\"reason\":\"diamond_pickaxe\",\"give_item\":\"diamond_sword\",\"give_quantity\":1,\"take_item\":\"diamond\",\"take_quantity\":3},{\"reason\":\"redstone_torch\",\"give_item\":\"emerald\",\"give_quantity\":1,\"take_item\":\"redstone\",\"take_quantity\":24},{\"reason\":\"iron_block\",\"give_"
+                }
+            ],
+            "field_new_name": "player_inventory"
+        },
+        {
+            "field_name": "trade-menu",
+            "field_type": "<class 'str'>",
+            "field_description": "A structured list of trade items available for exchange between players and NPCs. Each entry specifies the item to be traded, its quantity, and the corresponding items required for the trade.",
+            "field_values": [
+                "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                "[[\"diamond_sword\",1,\"diamond\",3,\"diamond_pickaxe\"],[\"emerald\",1,\"redstone\",24,\"redstone_torch\"],[\"iron_chestplate\",1,\"iron\",8,\"iron_block\"],[\"diamond\",1,\"iron_ingot\",31,\"diamond_pickaxe\"],[\"gold_nugget\",1,\"iron_ingot\",1,\"gold_ingot\"],[\"golden_shovel\",1,\"i"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 07:20:20",
+                    "time": 1702777820,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840290,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "inventory": "{'andesite': 2, 'birch_planks': 4, 'bone': 1, 'bread': 15, 'coal': 175, 'cobbled_deepslate': 9, 'cobblestone': 28, 'crafting_table': 1, 'diamond_sword': 1, 'emerald': 4, 'flowering_azalea': 1, 'furnace': 1, 'golden_shovel': 1, 'gravel': 6, 'iron_axe': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 1, 'iron_pickaxe': 1, 'moss_block': 10, 'raw_iron': 163, 'shield': 1, 'stick': 2, 'torch': 7, 'warped_planks': 32, 'warped_wart_block': 1, 'water_bucket': 1, 'wheat': 384, 'written_book': 1}",
+                    "trade-menu": "[[\"diamond_sword\",1,\"diamond\",3,\"diamond_pickaxe\"],[\"emerald\",1,\"redstone\",24,\"redstone_torch\"],[\"iron_chestplate\",1,\"iron\",8,\"iron_block\"],[\"diamond\",1,\"iron_ingot\",31,\"diamond_pickaxe\"],[\"gold_nugget\",1,\"iron_ingot\",1,\"gold_ingot\"],[\"golden_shovel\",1,\"i",
+                    "trade-suggested": "[{\"reason\":\"diamond_pickaxe\",\"give_item\":\"diamond_sword\",\"give_quantity\":1,\"take_item\":\"diamond\",\"take_quantity\":3},{\"reason\":\"redstone_torch\",\"give_item\":\"emerald\",\"give_quantity\":1,\"take_item\":\"redstone\",\"take_quantity\":24},{\"reason\":\"iron_block\",\"give_"
+                }
+            ],
+            "field_new_name": "trade_item_menu"
+        },
+        {
+            "field_name": "trade-suggested",
+            "field_type": "<class 'str'>",
+            "field_description": "Contains suggested trades involving items, quantities, and reasons for the trade. Each suggestion details what items are given and taken in the trade.",
+            "field_values": [
+                "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i",
+                "[{\"reason\":\"diamond_pickaxe\",\"give_item\":\"diamond_sword\",\"give_quantity\":1,\"take_item\":\"diamond\",\"take_quantity\":3},{\"reason\":\"redstone_torch\",\"give_item\":\"emerald\",\"give_quantity\":1,\"take_item\":\"redstone\",\"take_quantity\":24},{\"reason\":\"iron_block\",\"give_"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "username": ".Its_Sycooo",
+                    "device": "bedrock",
+                    "npc": "raju",
+                    "inventory": "{'coal': 24, 'cobbled_deepslate': 256, 'diamond': 4, 'diamond_block': 6, 'flint': 1, 'gold_ingot': 10, 'golden_apple': 1, 'golden_shovel': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 4, 'iron_leggings': 1, 'iron_pickaxe': 1, 'iron_sword': 1, 'name_tag': 1, 'raw_iron': 40, 'shield': 1, 'stick': 66, 'wheat_seeds': 1}",
+                    "trade-menu": "[[\"iron_sword\",1,\"stick\",64,\"iron_ingot\"],[\"iron_pickaxe\",1,\"cobblestone\",25,\"iron_ingot\"],[\"iron_ingot\",1,\"cobblestone\",8,\"stone_pickaxe\"],[\"golden_apple\",1,\"coal\",17,\"torch\"],[\"cobblestone\",2,\"flint\",1,\"flint_and_steel\"],[\"coal\",1,\"stick\",20,\"torch\"],[\"",
+                    "trade-suggested": "[{\"reason\":\"diamond_block\",\"give_item\":\"diamond\",\"give_quantity\":1,\"take_item\":\"iron_ingot\",\"take_quantity\":31},{\"reason\":\"iron_ingot\",\"give_item\":\"iron_sword\",\"give_quantity\":1,\"take_item\":\"stick\",\"take_quantity\":64},{\"reason\":\"iron_ingot\",\"give_item\":\"i"
+                },
+                {
+                    "event": "Trade Offer Received",
+                    "timestamp": "2023-12-17 07:20:20",
+                    "time": 1702777820,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840290,
+                    "event_original_name": "Trade Offer Received",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "inventory": "{'andesite': 2, 'birch_planks': 4, 'bone': 1, 'bread': 15, 'coal': 175, 'cobbled_deepslate': 9, 'cobblestone': 28, 'crafting_table': 1, 'diamond_sword': 1, 'emerald': 4, 'flowering_azalea': 1, 'furnace': 1, 'golden_shovel': 1, 'gravel': 6, 'iron_axe': 1, 'iron_boots': 1, 'iron_chestplate': 1, 'iron_helmet': 1, 'iron_ingot': 1, 'iron_pickaxe': 1, 'moss_block': 10, 'raw_iron': 163, 'shield': 1, 'stick': 2, 'torch': 7, 'warped_planks': 32, 'warped_wart_block': 1, 'water_bucket': 1, 'wheat': 384, 'written_book': 1}",
+                    "trade-menu": "[[\"diamond_sword\",1,\"diamond\",3,\"diamond_pickaxe\"],[\"emerald\",1,\"redstone\",24,\"redstone_torch\"],[\"iron_chestplate\",1,\"iron\",8,\"iron_block\"],[\"diamond\",1,\"iron_ingot\",31,\"diamond_pickaxe\"],[\"gold_nugget\",1,\"iron_ingot\",1,\"gold_ingot\"],[\"golden_shovel\",1,\"i",
+                    "trade-suggested": "[{\"reason\":\"diamond_pickaxe\",\"give_item\":\"diamond_sword\",\"give_quantity\":1,\"take_item\":\"diamond\",\"take_quantity\":3},{\"reason\":\"redstone_torch\",\"give_item\":\"emerald\",\"give_quantity\":1,\"take_item\":\"redstone\",\"take_quantity\":24},{\"reason\":\"iron_block\",\"give_"
+                }
+            ],
+            "field_new_name": "trade_offer_suggestions"
+        },
+        {
+            "field_name": "first-chat",
+            "field_type": "<class 'bool'>",
+            "field_description": "Indicates whether this is the player's first chat interaction with the NPC. A boolean value that helps track initial engagement in chat.",
+            "field_values": [
+                true,
+                true,
+                true
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:43:10",
+                    "time": 1702775590,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775609832,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Bhai aaj netheriye",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 06:44:51",
+                    "time": 1702775691,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702775717735,
+                    "event_original_name": "NPC Interaction",
+                    "id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "type": "chat",
+                    "username": ".Its_Sycooo",
+                    "message": "Exploring",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                },
+                {
+                    "event": "NPC Interaction",
+                    "timestamp": "2023-12-17 07:20:20",
+                    "time": 1702777820,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777840289,
+                    "event_original_name": "NPC Interaction",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "type": "chat",
+                    "username": "Priyanshu1030",
+                    "message": "mining",
+                    "npc": "e5f13606-7960-444a-9548-8c02e86b917f",
+                    "first-chat": true
+                }
+            ],
+            "field_new_name": "is_first_chat"
+        },
+        {
+            "field_name": "block",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the type of block that has been broken in the event. This field captures the specific block, such as GRASS, involved in the BlockBreakEvent.",
+            "field_values": [
+                "GRASS",
+                "GRASS",
+                "GRASS",
+                "GRASS",
+                "GRASS",
+                "GRASS"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:32",
+                    "time": 1702775792,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801034,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:32",
+                    "time": 1702775792,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801033,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:32",
+                    "time": 1702775792,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801027,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:34",
+                    "time": 1702775794,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801031,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:34",
+                    "time": 1702775794,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801027,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                },
+                {
+                    "event": "BlockBreakEvent",
+                    "timestamp": "2023-12-17 06:46:34",
+                    "time": 1702775794,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775801028,
+                    "server": "manas",
+                    "block": "GRASS",
+                    "world": "world"
+                }
+            ],
+            "field_new_name": "broken_block_type"
+        },
+        {
+            "field_name": "cause",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the reason behind a player's death in the game. Possible values include environmental hazards or attacks by entities.",
+            "field_values": [
+                "FALL",
+                "ENTITY_ATTACK",
+                "ENTITY_ATTACK"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "playerKilled",
+                    "timestamp": "2023-12-17 06:48:48",
+                    "time": 1702775928,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702775951492,
+                    "server": "manas",
+                    "world": "world",
+                    "cause": "FALL"
+                },
+                {
+                    "event": "playerKilled",
+                    "timestamp": "2023-12-17 07:18:01",
+                    "time": 1702777681,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777700995,
+                    "server": "manas",
+                    "world": "world",
+                    "cause": "ENTITY_ATTACK"
+                },
+                {
+                    "event": "playerKilled",
+                    "timestamp": "2023-12-17 07:26:41",
+                    "time": 1702778201,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778226037,
+                    "server": "manas",
+                    "world": "world",
+                    "cause": "ENTITY_ATTACK"
+                }
+            ],
+            "field_new_name": "death_cause"
+        },
+        {
+            "field_name": "duration",
+            "field_type": "<class 'float'>",
+            "field_description": "Represents the duration of an event in seconds. This field captures the time span for various events like sessions and player quit actions.",
+            "field_values": [
+                499.0,
+                499.0,
+                14.0,
+                14.0,
+                284.0,
+                284.0
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Session",
+                    "timestamp": "2023-12-17 06:50:29",
+                    "time": 1702776029,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776052018,
+                    "server": "manas",
+                    "duration": 499.0
+                },
+                {
+                    "event": "PlayerQuitEvent",
+                    "timestamp": "2023-12-17 06:50:29",
+                    "time": 1702776029,
+                    "distinct_id": "00000000-0000-0000-0009-01fff2bbdb48",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776052019,
+                    "server": "manas",
+                    "duration": 499.0
+                },
+                {
+                    "event": "Session",
+                    "timestamp": "2023-12-17 07:08:57",
+                    "time": 1702777137,
+                    "distinct_id": "fda86b62-955b-3e2c-b012-04181018a53e",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777151085,
+                    "server": "manas",
+                    "duration": 14.0
+                },
+                {
+                    "event": "PlayerQuitEvent",
+                    "timestamp": "2023-12-17 07:08:57",
+                    "time": 1702777137,
+                    "distinct_id": "fda86b62-955b-3e2c-b012-04181018a53e",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777151085,
+                    "server": "manas",
+                    "duration": 14.0
+                },
+                {
+                    "event": "PlayerQuitEvent",
+                    "timestamp": "2023-12-17 07:22:03",
+                    "time": 1702777923,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777925951,
+                    "server": "manas",
+                    "duration": 284.0
+                },
+                {
+                    "event": "Session",
+                    "timestamp": "2023-12-17 07:22:03",
+                    "time": 1702777923,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777925951,
+                    "server": "manas",
+                    "duration": 284.0
+                }
+            ],
+            "field_new_name": "event_duration"
+        },
+        {
+            "field_name": "item",
+            "field_type": "<class 'str'>",
+            "field_description": "The specific item that is crafted during the CraftItemEvent. This field captures the type of item being created by the player.",
+            "field_values": [
+                "STICK",
+                "STICK",
+                "STICK",
+                "STICK",
+                "STICK",
+                "STICK"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:32",
+                    "time": 1702776932,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952500,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                },
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:32",
+                    "time": 1702776932,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952500,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                },
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:32",
+                    "time": 1702776932,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952500,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                },
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:33",
+                    "time": 1702776933,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952499,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                },
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:33",
+                    "time": 1702776933,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952500,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                },
+                {
+                    "event": "CraftItemEvent",
+                    "timestamp": "2023-12-17 07:05:33",
+                    "time": 1702776933,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702776952500,
+                    "server": "manas",
+                    "world": "world",
+                    "item": "STICK"
+                }
+            ],
+            "field_new_name": "crafted_item"
+        },
+        {
+            "field_name": "advancement",
+            "field_type": "<class 'str'>",
+            "field_description": "Represents the specific advancement achieved by a player in the game. This includes various tasks like planting seeds or crafting items.",
+            "field_values": [
+                "minecraft:husbandry/plant_seed",
+                "minecraft:recipes/building_blocks/raw_copper_block",
+                "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper",
+                "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "player-advancement",
+                    "timestamp": "2023-12-17 07:19:41",
+                    "time": 1702777781,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702777801034,
+                    "server": "manas",
+                    "world": "world",
+                    "advancement": "minecraft:husbandry/plant_seed"
+                },
+                {
+                    "event": "player-advancement",
+                    "timestamp": "2023-12-17 07:26:14",
+                    "time": 1702778174,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176042,
+                    "server": "manas",
+                    "world": "world",
+                    "advancement": "minecraft:recipes/building_blocks/raw_copper_block"
+                },
+                {
+                    "event": "player-advancement",
+                    "timestamp": "2023-12-17 07:26:14",
+                    "time": 1702778174,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176043,
+                    "server": "manas",
+                    "world": "world",
+                    "advancement": "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper"
+                },
+                {
+                    "event": "player-advancement",
+                    "timestamp": "2023-12-17 07:26:14",
+                    "time": 1702778174,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176042,
+                    "server": "manas",
+                    "world": "world",
+                    "advancement": "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper"
+                }
+            ],
+            "field_new_name": "player_advancement"
+        },
+        {
+            "field_name": "item-give",
+            "field_type": "<class 'str'>",
+            "field_description": "Details of the item given in a trade event, including its type and quantity. This field captures the specific items exchanged between players.",
+            "field_values": [
+                "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Unique Trade",
+                    "timestamp": "2023-12-17 07:20:27",
+                    "time": 1702777827,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777860170,
+                    "event_original_name": "Unique Trade",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:20:27",
+                    "time": 1702777827,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777860165,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:21:20",
+                    "time": 1702777880,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777912550,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:21:59",
+                    "time": 1702777919,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777952088,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                }
+            ],
+            "field_new_name": "item_give_details"
+        },
+        {
+            "field_name": "item-take",
+            "field_type": "<class 'str'>",
+            "field_description": "Represents the details of an item taken by a player during an event. It includes the amount, type, and any lore associated with the item.",
+            "field_values": [
+                "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}",
+                "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}",
+                "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}",
+                "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "Unique Trade",
+                    "timestamp": "2023-12-17 07:20:27",
+                    "time": 1702777827,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777860170,
+                    "event_original_name": "Unique Trade",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:20:27",
+                    "time": 1702777827,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777860165,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:21:20",
+                    "time": 1702777880,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777912550,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                },
+                {
+                    "event": "Trade Accepted",
+                    "timestamp": "2023-12-17 07:21:59",
+                    "time": 1702777919,
+                    "distinct_id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "mp_lib": "Segment Actions: analytics-java",
+                    "mp_processing_time_ms": 1702777952088,
+                    "event_original_name": "Trade Accepted",
+                    "id": "996bf841-6feb-3f5d-99aa-3619c55497ca",
+                    "username": "Priyanshu1030",
+                    "device": "java",
+                    "npc": "raju",
+                    "item-give": "[{\"amount\":1,\"type\":\"DIAMOND_SWORD\"}]",
+                    "item-take": "{\"amount\":3,\"lore\":[{}],\"type\":\"DIAMOND\"}"
+                }
+            ],
+            "field_new_name": "item_taken"
+        },
+        {
+            "field_name": "victim_name",
+            "field_type": "<class 'str'>",
+            "field_description": "Represents the name of the entity that was killed by the player. This field captures the specific identity of the victim in the event.",
+            "field_values": [
+                "Spider"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "playerKills",
+                    "timestamp": "2023-12-17 07:26:05",
+                    "time": 1702778165,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176043,
+                    "server": "manas",
+                    "world": "world",
+                    "victim_name": "Spider",
+                    "victim_type": "SPIDER"
+                }
+            ],
+            "field_new_name": "victim_entity_name"
+        },
+        {
+            "field_name": "victim_type",
+            "field_type": "<class 'str'>",
+            "field_description": "Indicates the type of entity that was killed by the player. In this context, it specifies creatures like 'SPIDER'.",
+            "field_values": [
+                "SPIDER"
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "playerKills",
+                    "timestamp": "2023-12-17 07:26:05",
+                    "time": 1702778165,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176043,
+                    "server": "manas",
+                    "world": "world",
+                    "victim_name": "Spider",
+                    "victim_type": "SPIDER"
+                }
+            ],
+            "field_new_name": "victim_entity_type"
+        },
+        {
+            "field_name": "exp",
+            "field_type": "<class 'float'>",
+            "field_description": "Represents the amount of experience points a player has earned. This value is updated during specific player events, such as gaining experience.",
+            "field_values": [
+                17.0
+            ],
+            "elements_where_field_present": [
+                {
+                    "event": "PlayerExpChangeEvent",
+                    "timestamp": "2023-12-17 07:26:05",
+                    "time": 1702778165,
+                    "distinct_id": "99d97ec5-fee3-35a6-a8d9-955bcb9dacce",
+                    "mp_country_code": "IN",
+                    "mp_lib": "jdk",
+                    "mp_processing_time_ms": 1702778176041,
+                    "server": "manas",
+                    "world": "world",
+                    "exp": 17.0
+                }
+            ],
+            "field_new_name": "player_experience_points"
+        }
+    ]
+}
